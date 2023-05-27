@@ -1,0 +1,359 @@
+/* リセットCSS */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  background-color: #1f1f1f;
+  color: #fff;
+
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px; /* 画像の最大幅を指定 */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.project h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.project p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #888;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f45151;
+}
+
+/* 近未来風の追加スタイル */
+body {
+  background-image: linear-gradient(to bottom, #1f1f1f 0%, #000 100%);
+}
+
+header {
+  border-bottom: 1px solid #444;
+}
+
+nav ul li a {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.project img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+.project h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.project p {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+button {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* 以前のCSSコード */
+
+/* プロジェクトセクション */
+#projects {
+  background-color: #222;
+}
+
+#projects h2 {
+  color: #fff;
+}
+
+#projects .project h3 {
+  color: #fff;
+}
+
+#projects .project p {
+  color: #aaa;
+}
+
+/* スキルセクション */
+#skills {
+  background-color: #333;
+  padding: 50px;
+}
+
+#skills h2 {
+  color: #fff;
+}
+
+#skills ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+#skills li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #aaa;
+}
+
+/* 将来の方向性セクション */
+#future {
+  background-color: #222;
+  padding: 50px;
+}
+
+#future h2 {
+  color: #fff;
+}
+
+#future p {
+  color: #aaa;
+}
+
+/* SNSセクション */
+#sns {
+  background-color: #333;
+  padding: 50px;
+}
+
+#sns h2 {
+  color: #fff;
+}
+
+#sns ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+#sns li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#sns li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#sns li a:hover {
+  color: #ff6b6b;
+}
+
+#sns img {
+  width: 100%;
+  max-width: 100px; /* 画像の最大幅を指定 */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sns img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* 以前のCSSコード */
+
+/* 自己紹介セクション */
+#about {
+  background-color: #fff;
+  padding: 50px;
+}
+
+#about h2 {
+  color: #333;
+}
+
+#about p {
+  color: #555;
+}
+
+/* 経歴/学歴セクション */
+#experience {
+  background-color: #eee;
+  padding: 50px;
+}
+
+#experience h2 {
+  color: #333;
+}
+
+#experience ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+#experience li {
+  margin-bottom: 20px;
+}
+
+#experience h3 {
+  color: #333;
+}
+
+#experience p {
+  color: #777;
+}
+
+#experience h4 {
+  color: #333;
+  margin-top: 10px;
+}
+
+#experience h4 + p {
+  color: #777;
+  margin-top: 5px;
+}
+
+/* 以前のCSSコード */
+
+/* フォントスタイルの変更 */
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* 背景画像の追加 */
+body {
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* アニメーション効果の追加 */
+#projects .project:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* カラースキームの調整 */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+}
+
+/* レスポンシブデザインの実装 */
+@media screen and (max-width: 768px) {
+  /* 768px以下の画面サイズに適用されるスタイル */
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
+
